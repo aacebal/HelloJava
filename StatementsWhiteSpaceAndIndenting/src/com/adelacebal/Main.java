@@ -14,6 +14,6 @@ public class Main {
 
         int anotherVariable = 50;myVariable--;System.out.println("This is an inline test");
 
-        
+
     }
 }
