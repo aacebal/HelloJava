@@ -58,6 +58,17 @@ public class Main {
         if (isCar)
             System.out.println("This is not supposed to happen");
 
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar)
+            System.out.println("wasCar is true");
+
+        double myDouble = 20;
+        double mySecondDouble = 80;
+        double myResult = (myDouble + mySecondDouble) * 25;
+        double myRemainder = myResult % 40;
+        if (myRemainder <= 20)
+            System.out.println("Total was over the limit");
 /*
 ==
 !=
@@ -67,6 +78,7 @@ public class Main {
 <=
 &&
 ||
+?
 */
     }
 }
