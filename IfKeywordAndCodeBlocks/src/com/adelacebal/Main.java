@@ -21,12 +21,12 @@ public class Main {
             System.out.println("Your final score was " + finalScore);
         }
 
-        int newScore = 10000;
-        int newLevelCompleted = 8;
-        int newBonus = 200;
+        score = 10000;
+        levelCompleted = 8;
+        bonus = 200;
 
         if (gameOver) {
-            int finalScore = newScore + (newLevelCompleted * newBonus);
+            int finalScore = score + (levelCompleted * bonus);
             System.out.println("Your final score was " + finalScore);
         }
 
