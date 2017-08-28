@@ -34,10 +34,21 @@ public class Main {
 
         switch(switchChar) {
             case 'A': case 'B':case 'C': case 'D': case 'E':
-                System.out.println("We found it!");
+                System.out.println("We found " + switchChar + "!");
                 break;
             default:
-                System.out.println("Where are they");
+                System.out.println("Couldn't find them!");
+        }
+
+        String month = "MARCH";
+        switch(month.toLowerCase()) {
+            case "january": case "february": case "march": case "april":
+            case "june": case "july": case "august": case "september":
+            case "october": case "november": case "december":
+                System.out.println(month + " is a month");
+            break;
+            default:
+                System.out.println(month + " is not a month");
         }
 
     }
