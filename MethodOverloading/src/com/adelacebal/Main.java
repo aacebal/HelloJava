@@ -46,9 +46,10 @@ public class Main {
             return -1;
         }
 
-        double centimeters = inches * 2.54;
+        double feet = (int)( inches / 12) ;
+        double remainingInches = inches % 12;
 
-        System.out.println(inches + " inches are " + centimeters + " centimeters ");
+        double centimeters = calcFeetAndInchesToCentimeters(feet, remainingInches);
 
         return centimeters;
     }
